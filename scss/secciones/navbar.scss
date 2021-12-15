@@ -1,0 +1,12 @@
+.marca-nav{
+    font-family: $font-main;
+}
+
+.enlace{
+    font-family: $font-main;
+    font-weight: 600;
+    transition: .3s;
+    &:hover{
+        background-color: $color-main;
+    }
+}

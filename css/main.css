@@ -1,0 +1,25 @@
+body {
+  display: grid;
+  background-size: cover;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  background: #833ab4;
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  background-size: cover; }
+
+.titulo-heroe {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600; }
+
+.parrafo-heroe {
+  font-family: "Josefin Sans", sans-serif; }
+
+.marca-nav {
+  font-family: "Josefin Sans", sans-serif; }
+
+.enlace {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  transition: .3s; }
+  .enlace:hover {
+    background-color: #833ab4; }

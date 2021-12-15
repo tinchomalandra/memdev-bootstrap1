@@ -1,0 +1,21 @@
+@import "secciones/variables.scss";
+
+body{
+    display: grid;
+    background-size: cover;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: cover;
+}
+
+.titulo-heroe{
+    font-family: $font-main;
+    font-weight: 600;
+}
+
+.parrafo-heroe{
+    font-family: $font-main;
+}
